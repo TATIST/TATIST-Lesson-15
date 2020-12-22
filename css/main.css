@@ -125,3 +125,18 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+@font-face {
+  font-family: "proxima_novabold";
+  src: url("11096-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+body {
+  font: 20px "proxima_novabold", sans-serif;
+  color: #fff; }

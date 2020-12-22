@@ -1,0 +1,10 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font: 20px "proxima_novabold", sans-serif;
+    background: url(../images/bg.png) no-repeat 50% 0 ;
+}
