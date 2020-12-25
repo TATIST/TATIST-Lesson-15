@@ -128,7 +128,7 @@ table {
 
 @font-face {
   font-family: "proxima_novabold";
-  src: url("11096-webfont.woff") format("woff");
+  src: url("../font/11096-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -137,6 +137,249 @@ table {
 *:after {
   box-sizing: border-box; }
 
+html,
+body {
+  min-height: 100%; }
+
 body {
   font: 20px "proxima_novabold", sans-serif;
-  color: #fff; }
+  background: linear-gradient(to bottom, #9dc1f3 0%, #010102 100%) no-repeat 50% 0; }
+
+.forms-wrapper {
+  max-width: 750px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center; }
+  .forms-wrapper div {
+    margin: 30px;
+    min-width: 300px; }
+
+.form-login {
+  background: rgba(255, 255, 255, 0.1);
+  height: 387px;
+  border-radius: 8px;
+  border: 1px rgba(255, 255, 255, 0.1) solid;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .form-login .form-title {
+    width: 100%;
+    color: #fff;
+    background: rgba(73, 119, 208, 0.53);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 19px;
+    margin-bottom: 26px;
+    box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4); }
+  .form-login .btn-primary {
+    color: #8f5757;
+    background: rgba(255, 255, 255, 0.53);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+    border: none;
+    font: 20px "proxima_novabold", sans-serif; }
+    .form-login .btn-primary.btn-lg {
+      min-width: 250px;
+      font-size: 20px;
+      border-radius: 8px;
+      padding: 18px;
+      margin: 5px; }
+    .form-login .btn-primary.btn-sm {
+      min-width: 173px;
+      font-size: 14px;
+      border-radius: 5px;
+      padding: 12px;
+      margin: 4px; }
+  .form-login .btn-customary {
+    color: #711212;
+    background: rgba(73, 119, 208, 0.53);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+    border: none;
+    font: 20px "proxima_novabold", sans-serif; }
+    .form-login .btn-customary.btn-lg {
+      min-width: 250px;
+      font-size: 20px;
+      border-radius: 8px;
+      padding: 18px;
+      margin: 5px; }
+    .form-login .btn-customary.btn-sm {
+      min-width: 173px;
+      font-size: 14px;
+      border-radius: 5px;
+      padding: 12px;
+      margin: 4px; }
+  .form-login .btn-standart {
+    color: #e3f73a;
+    background: rgba(105, 193, 242, 0.53);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+    border: none;
+    font: 20px "proxima_novabold", sans-serif; }
+    .form-login .btn-standart.btn-lg {
+      min-width: 250px;
+      font-size: 20px;
+      border-radius: 8px;
+      padding: 18px;
+      margin: 5px; }
+    .form-login .btn-standart.btn-sm {
+      min-width: 173px;
+      font-size: 14px;
+      border-radius: 5px;
+      padding: 12px;
+      margin: 4px; }
+  .form-login .btn-universal {
+    color: #fff;
+    background: rgba(84, 193, 118, 0.53);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+    border: none;
+    font: 20px "proxima_novabold", sans-serif; }
+    .form-login .btn-universal.btn-lg {
+      min-width: 250px;
+      font-size: 20px;
+      border-radius: 8px;
+      padding: 18px;
+      margin: 5px; }
+    .form-login .btn-universal.btn-sm {
+      min-width: 173px;
+      font-size: 14px;
+      border-radius: 5px;
+      padding: 12px;
+      margin: 4px; }
+
+.form-profile {
+  background: rgba(255, 255, 255, 0.1);
+  height: 387px;
+  border-radius: 8px;
+  border: 1px rgba(255, 255, 255, 0.1) solid;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .form-profile .form-title {
+    width: 100%;
+    color: #fff;
+    background: rgba(168, 115, 28, 0.53);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 19px;
+    margin-bottom: 26px;
+    box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4); }
+  .form-profile .btn-primary {
+    color: #8f5757;
+    background: rgba(255, 255, 255, 0.53);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+    border: none;
+    font: 20px "proxima_novabold", sans-serif; }
+    .form-profile .btn-primary.btn-lg {
+      min-width: 250px;
+      font-size: 20px;
+      border-radius: 8px;
+      padding: 18px;
+      margin: 5px; }
+    .form-profile .btn-primary.btn-sm {
+      min-width: 173px;
+      font-size: 14px;
+      border-radius: 5px;
+      padding: 12px;
+      margin: 4px; }
+  .form-profile .btn-customary {
+    color: #711212;
+    background: rgba(73, 119, 208, 0.53);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+    border: none;
+    font: 20px "proxima_novabold", sans-serif; }
+    .form-profile .btn-customary.btn-lg {
+      min-width: 250px;
+      font-size: 20px;
+      border-radius: 8px;
+      padding: 18px;
+      margin: 5px; }
+    .form-profile .btn-customary.btn-sm {
+      min-width: 173px;
+      font-size: 14px;
+      border-radius: 5px;
+      padding: 12px;
+      margin: 4px; }
+  .form-profile .btn-standart {
+    color: #e3f73a;
+    background: rgba(105, 193, 242, 0.53);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+    border: none;
+    font: 20px "proxima_novabold", sans-serif; }
+    .form-profile .btn-standart.btn-lg {
+      min-width: 250px;
+      font-size: 20px;
+      border-radius: 8px;
+      padding: 18px;
+      margin: 5px; }
+    .form-profile .btn-standart.btn-sm {
+      min-width: 173px;
+      font-size: 14px;
+      border-radius: 5px;
+      padding: 12px;
+      margin: 4px; }
+  .form-profile .btn-universal {
+    color: #fff;
+    background: rgba(84, 193, 118, 0.53);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+    border: none;
+    font: 20px "proxima_novabold", sans-serif; }
+    .form-profile .btn-universal.btn-lg {
+      min-width: 250px;
+      font-size: 20px;
+      border-radius: 8px;
+      padding: 18px;
+      margin: 5px; }
+    .form-profile .btn-universal.btn-sm {
+      min-width: 173px;
+      font-size: 14px;
+      border-radius: 5px;
+      padding: 12px;
+      margin: 4px; }
+
+.form-download {
+  background: rgba(255, 255, 255, 0.1);
+  height: 387px;
+  border-radius: 8px;
+  border: 1px rgba(255, 255, 255, 0.1) solid;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .form-download .form-title {
+    width: 100%;
+    color: #fff;
+    background: rgba(84, 193, 118, 0.53);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 19px;
+    margin-bottom: 26px;
+    box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4); }
+
+.form-location {
+  background: rgba(255, 255, 255, 0.1);
+  height: 145px;
+  border-radius: 8px;
+  border: 1px rgba(255, 255, 255, 0.1) solid;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .form-location .form-title {
+    width: 100%;
+    color: #fff;
+    background: rgba(253, 228, 127, 0.53);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 19px;
+    margin-bottom: 26px;
+    box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4); }

@@ -4,7 +4,90 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    min-height: 100%;
+}
+
 body {
     font: 20px "proxima_novabold", sans-serif;
-    background: url(../images/bg.png) no-repeat 50% 0 ;
+    background: $bgColor;
+}
+
+.forms-wrapper {
+    max-width: 750px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+
+    div {
+        margin: 30px;
+        min-width: 300px;
+    }
+}
+
+.form-login {
+    @include form(387px);
+
+    .form-title {
+        @include form_title($colorCustomary);
+    }
+
+    .btn-primary {
+        @include button($fontColorPrimary, $colorPrimary);
+    }
+
+    .btn-customary {
+        @include button($fontColorCustomary, $colorCustomary);
+    }
+
+    .btn-standart {
+        @include button($fontColorStandart, $colorStandart);
+    }
+
+    .btn-universal {
+        @include button($fontColorUniversal, $colorUniversal);
+    }
+}
+
+.form-profile {
+    @include form(387px);
+
+    .form-title {
+        @include form_title($colorSenary);
+    }
+
+    .btn-primary {
+        @include button($fontColorPrimary, $colorPrimary);
+    }
+
+    .btn-customary {
+        @include button($fontColorCustomary, $colorCustomary);
+    }
+
+    .btn-standart {
+        @include button($fontColorStandart, $colorStandart);
+    }
+
+    .btn-universal {
+        @include button($fontColorUniversal, $colorUniversal);
+    }
+}
+
+.form-download {
+    @include form(387px);
+
+    .form-title {
+        @include form_title($colorUniversal);
+    }
+}
+
+.form-location {
+    @include form(145px);
+
+    .form-title {
+        @include form_title($colorDenary);
+    }
 }
