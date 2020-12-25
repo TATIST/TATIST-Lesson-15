@@ -1,7 +1,7 @@
 @mixin form($height) {
     background: $bgCard;
     height: $height;
-    border-radius: 8px;
+    border-radius: 10px;
     border: 1px $bgCard solid;
     overflow: hidden;
     display: flex;
@@ -17,8 +17,8 @@
     background: $titleBg;
     text-align: center;
     text-transform: uppercase;
-    padding: 19px;
-    margin-bottom: 21px;
+    padding: 18px;
+    margin-bottom: 20px;
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54),
         inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
 }
@@ -26,7 +26,8 @@
 @mixin button ($textColor, $btnBgColor) {
     color: $textColor;
     background: $btnBgColor;
-    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54),
+        inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
     font: 20px "proxima_novabold",

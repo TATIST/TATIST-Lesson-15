@@ -159,28 +159,30 @@ body {
 .form-login {
   background: rgba(255, 255, 255, 0.1);
   height: 387px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px rgba(255, 255, 255, 0.1) solid;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 26px; }
   .form-login .form-title {
     width: 100%;
     color: #fff;
     background: rgba(73, 119, 208, 0.53);
     text-align: center;
     text-transform: uppercase;
-    padding: 19px;
-    margin-bottom: 26px;
+    padding: 18px;
+    margin-bottom: 20px;
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4); }
   .form-login .btn-primary {
     color: #8f5757;
     background: rgba(255, 255, 255, 0.53);
-    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
-    font: 20px "proxima_novabold", sans-serif; }
+    font: 20px "proxima_novabold", sans-serif;
+    box-shadow: none; }
     .form-login .btn-primary.btn-lg {
       min-width: 250px;
       font-size: 20px;
@@ -196,7 +198,7 @@ body {
   .form-login .btn-customary {
     color: #711212;
     background: rgba(73, 119, 208, 0.53);
-    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
     font: 20px "proxima_novabold", sans-serif; }
@@ -215,7 +217,7 @@ body {
   .form-login .btn-standart {
     color: #e3f73a;
     background: rgba(105, 193, 242, 0.53);
-    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
     font: 20px "proxima_novabold", sans-serif; }
@@ -234,7 +236,7 @@ body {
   .form-login .btn-universal {
     color: #fff;
     background: rgba(84, 193, 118, 0.53);
-    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
     font: 20px "proxima_novabold", sans-serif; }
@@ -254,28 +256,30 @@ body {
 .form-profile {
   background: rgba(255, 255, 255, 0.1);
   height: 387px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px rgba(255, 255, 255, 0.1) solid;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 26px; }
   .form-profile .form-title {
     width: 100%;
     color: #fff;
     background: rgba(168, 115, 28, 0.53);
     text-align: center;
     text-transform: uppercase;
-    padding: 19px;
-    margin-bottom: 26px;
+    padding: 18px;
+    margin-bottom: 20px;
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4); }
   .form-profile .btn-primary {
     color: #8f5757;
     background: rgba(255, 255, 255, 0.53);
-    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
-    font: 20px "proxima_novabold", sans-serif; }
+    font: 20px "proxima_novabold", sans-serif;
+    box-shadow: none; }
     .form-profile .btn-primary.btn-lg {
       min-width: 250px;
       font-size: 20px;
@@ -291,7 +295,7 @@ body {
   .form-profile .btn-customary {
     color: #711212;
     background: rgba(73, 119, 208, 0.53);
-    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
     font: 20px "proxima_novabold", sans-serif; }
@@ -310,7 +314,7 @@ body {
   .form-profile .btn-standart {
     color: #e3f73a;
     background: rgba(105, 193, 242, 0.53);
-    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
     font: 20px "proxima_novabold", sans-serif; }
@@ -329,7 +333,7 @@ body {
   .form-profile .btn-universal {
     color: #fff;
     background: rgba(84, 193, 118, 0.53);
-    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
     font: 20px "proxima_novabold", sans-serif; }
@@ -349,37 +353,39 @@ body {
 .form-download {
   background: rgba(255, 255, 255, 0.1);
   height: 387px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px rgba(255, 255, 255, 0.1) solid;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 26px; }
   .form-download .form-title {
     width: 100%;
     color: #fff;
     background: rgba(84, 193, 118, 0.53);
     text-align: center;
     text-transform: uppercase;
-    padding: 19px;
-    margin-bottom: 26px;
+    padding: 18px;
+    margin-bottom: 20px;
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4); }
 
 .form-location {
   background: rgba(255, 255, 255, 0.1);
   height: 145px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px rgba(255, 255, 255, 0.1) solid;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 26px; }
   .form-location .form-title {
     width: 100%;
     color: #fff;
     background: rgba(253, 228, 127, 0.53);
     text-align: center;
     text-transform: uppercase;
-    padding: 19px;
-    margin-bottom: 26px;
+    padding: 18px;
+    margin-bottom: 20px;
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4); }

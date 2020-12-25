@@ -37,6 +37,7 @@ body {
 
     .btn-primary {
         @include button($fontColorPrimary, $colorPrimary);
+        box-shadow: none;
     }
 
     .btn-customary {
@@ -61,6 +62,7 @@ body {
 
     .btn-primary {
         @include button($fontColorPrimary, $colorPrimary);
+        box-shadow: none;
     }
 
     .btn-customary {
