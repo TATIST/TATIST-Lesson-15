@@ -195,16 +195,17 @@ body {
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
-    .form-login .btn-primary.btn-primary:before {
-      content: 'Button';
-      text-transform: uppercase; }
+    .form-login .btn-primary .text-hover {
+      display: none; }
     .form-login .btn-primary:hover {
       color: #fff;
       background: #d1dced;
       cursor: pointer;
       box-shadow: none; }
-    .form-login .btn-primary:hover::before {
-      content: 'Follow'; }
+      .form-login .btn-primary:hover .text-initial {
+        display: none; }
+      .form-login .btn-primary:hover .text-hover {
+        display: block; }
   .form-login .btn-customary {
     color: #711212;
     background: rgba(73, 119, 208, 0.53);
@@ -314,16 +315,17 @@ body {
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
-    .form-profile .btn-primary.btn-primary:before {
-      content: 'Button';
-      text-transform: uppercase; }
+    .form-profile .btn-primary .text-hover {
+      display: none; }
     .form-profile .btn-primary:hover {
       color: #fff;
       background: #d1dced;
       cursor: pointer;
       box-shadow: none; }
-    .form-profile .btn-primary:hover::before {
-      content: 'Follow'; }
+      .form-profile .btn-primary:hover .text-initial {
+        display: none; }
+      .form-profile .btn-primary:hover .text-hover {
+        display: block; }
   .form-profile .btn-customary {
     color: #711212;
     background: rgba(73, 119, 208, 0.53);
