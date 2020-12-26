@@ -49,3 +49,9 @@
         margin: 4px;
     }
 }
+
+@mixin btn-hover ($textColorHover, $btnBgColorHover) {
+    color: $textColorHover;
+    background: $btnBgColorHover;
+    cursor: pointer;
+}

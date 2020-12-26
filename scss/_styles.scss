@@ -38,18 +38,35 @@ body {
     .btn-primary {
         @include button($fontColorPrimary, $colorPrimary);
         box-shadow: none;
+
+        &:hover {
+            @include btn-hover ($fontColorUniversal, $colorPrimaryHover);
+            box-shadow: none;
+        }
     }
 
     .btn-customary {
         @include button($fontColorCustomary, $colorCustomary);
+
+        &:hover {
+            @include btn-hover ($fontColorUniversal, $colorCustomaryHover);
+        }
     }
 
     .btn-standart {
         @include button($fontColorStandart, $colorStandart);
+
+        &:hover {
+            @include btn-hover ($fontColorUniversal, $colorStandartHover);
+        }
     }
 
     .btn-universal {
         @include button($fontColorUniversal, $colorUniversal);
+
+        &:hover {
+            @include btn-hover ($fontColorUniversal, $colorUniversalHover);
+        }
     }
 }
 
@@ -63,20 +80,38 @@ body {
     .btn-primary {
         @include button($fontColorPrimary, $colorPrimary);
         box-shadow: none;
+
+        &:hover {
+            @include btn-hover ($fontColorUniversal, $colorPrimaryHover);
+            box-shadow: none;
+        }
     }
 
     .btn-customary {
         @include button($fontColorCustomary, $colorCustomary);
+
+        &:hover {
+            @include btn-hover ($fontColorUniversal, $colorCustomaryHover);
+        }
     }
 
     .btn-standart {
         @include button($fontColorStandart, $colorStandart);
+
+        &:hover {
+            @include btn-hover ($fontColorUniversal, $colorStandartHover);
+        }
     }
 
     .btn-universal {
         @include button($fontColorUniversal, $colorUniversal);
+
+        &:hover {
+            @include btn-hover ($fontColorUniversal, $colorUniversalHover);
+        }
     }
 }
+
 
 .form-download {
     @include form(387px);

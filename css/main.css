@@ -195,6 +195,11 @@ body {
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
+    .form-login .btn-primary:hover {
+      color: #fff;
+      background: #d1dced;
+      cursor: pointer;
+      box-shadow: none; }
   .form-login .btn-customary {
     color: #711212;
     background: rgba(73, 119, 208, 0.53);
@@ -214,6 +219,10 @@ body {
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
+    .form-login .btn-customary:hover {
+      color: #fff;
+      background: #6d91d5;
+      cursor: pointer; }
   .form-login .btn-standart {
     color: #e3f73a;
     background: rgba(105, 193, 242, 0.53);
@@ -233,6 +242,10 @@ body {
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
+    .form-login .btn-standart:hover {
+      color: #fff;
+      background: #82c3eb;
+      cursor: pointer; }
   .form-login .btn-universal {
     color: #fff;
     background: rgba(84, 193, 118, 0.53);
@@ -252,6 +265,10 @@ body {
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
+    .form-login .btn-universal:hover {
+      color: #fff;
+      background: #72c192;
+      cursor: pointer; }
 
 .form-profile {
   background: rgba(255, 255, 255, 0.1);
@@ -292,6 +309,11 @@ body {
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
+    .form-profile .btn-primary:hover {
+      color: #fff;
+      background: #d1dced;
+      cursor: pointer;
+      box-shadow: none; }
   .form-profile .btn-customary {
     color: #711212;
     background: rgba(73, 119, 208, 0.53);
@@ -311,6 +333,10 @@ body {
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
+    .form-profile .btn-customary:hover {
+      color: #fff;
+      background: #6d91d5;
+      cursor: pointer; }
   .form-profile .btn-standart {
     color: #e3f73a;
     background: rgba(105, 193, 242, 0.53);
@@ -330,6 +356,10 @@ body {
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
+    .form-profile .btn-standart:hover {
+      color: #fff;
+      background: #82c3eb;
+      cursor: pointer; }
   .form-profile .btn-universal {
     color: #fff;
     background: rgba(84, 193, 118, 0.53);
@@ -349,6 +379,10 @@ body {
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
+    .form-profile .btn-universal:hover {
+      color: #fff;
+      background: #72c192;
+      cursor: pointer; }
 
 .form-download {
   background: rgba(255, 255, 255, 0.1);
