@@ -39,9 +39,18 @@ body {
         @include button($fontColorPrimary, $colorPrimary);
         box-shadow: none;
 
+        &.btn-primary:before {
+            content: 'Button';
+            text-transform: uppercase;
+        }
+
         &:hover {
             @include btn-hover ($fontColorUniversal, $colorPrimaryHover);
             box-shadow: none;
+        }
+
+        &:hover::before {
+            content: 'Follow';
         }
     }
 
@@ -81,11 +90,21 @@ body {
         @include button($fontColorPrimary, $colorPrimary);
         box-shadow: none;
 
+        &.btn-primary:before {
+            content: 'Button';
+            text-transform: uppercase;
+        }
+
         &:hover {
             @include btn-hover ($fontColorUniversal, $colorPrimaryHover);
             box-shadow: none;
         }
+
+        &:hover::before {
+            content: 'Follow';
+        }
     }
+
 
     .btn-customary {
         @include button($fontColorCustomary, $colorCustomary);
