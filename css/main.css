@@ -145,18 +145,18 @@ body {
   font: 20px "proxima_novabold", sans-serif;
   background: linear-gradient(to bottom, #9dc1f3 0%, #010102 100%) no-repeat 50% 0; }
 
-.forms-wrapper {
+.cards-wrapper {
   max-width: 750px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   height: 100%;
   justify-content: center; }
-  .forms-wrapper div {
+  .cards-wrapper div {
     margin: 30px;
     min-width: 300px; }
 
-.form-login {
+.card-login {
   background: rgba(255, 255, 255, 0.1);
   height: 387px;
   border-radius: 10px;
@@ -166,7 +166,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 26px; }
-  .form-login .form-title {
+  .card-login .card-title {
     width: 100%;
     color: #fff;
     background: rgba(73, 119, 208, 0.53);
@@ -175,7 +175,7 @@ body {
     padding: 18px;
     margin-bottom: 20px;
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4); }
-  .form-login .btn-primary {
+  .card-login .btn-primary {
     color: #8f5757;
     background: rgba(255, 255, 255, 0.4);
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
@@ -183,100 +183,100 @@ body {
     border: none;
     font: 20px "proxima_novabold", sans-serif;
     box-shadow: none; }
-    .form-login .btn-primary.btn-lg {
+    .card-login .btn-primary.btn-lg {
       min-width: 250px;
       font-size: 20px;
       border-radius: 8px;
       padding: 18px;
       margin: 5px; }
-    .form-login .btn-primary.btn-sm {
+    .card-login .btn-primary.btn-sm {
       min-width: 173px;
       font-size: 14px;
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
-    .form-login .btn-primary .text-hover {
+    .card-login .btn-primary .text-hover {
       display: none; }
-    .form-login .btn-primary:hover {
+    .card-login .btn-primary:hover {
       color: #fff;
       background: #d1dced;
       cursor: pointer;
       box-shadow: none; }
-      .form-login .btn-primary:hover .text-initial {
+      .card-login .btn-primary:hover .text-initial {
         display: none; }
-      .form-login .btn-primary:hover .text-hover {
+      .card-login .btn-primary:hover .text-hover {
         display: block; }
-  .form-login .btn-customary {
+  .card-login .btn-customary {
     color: #711212;
     background: rgba(73, 119, 208, 0.53);
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
     font: 20px "proxima_novabold", sans-serif; }
-    .form-login .btn-customary.btn-lg {
+    .card-login .btn-customary.btn-lg {
       min-width: 250px;
       font-size: 20px;
       border-radius: 8px;
       padding: 18px;
       margin: 5px; }
-    .form-login .btn-customary.btn-sm {
+    .card-login .btn-customary.btn-sm {
       min-width: 173px;
       font-size: 14px;
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
-    .form-login .btn-customary:hover {
+    .card-login .btn-customary:hover {
       color: #fff;
       background: #6d91d5;
       cursor: pointer; }
-  .form-login .btn-standart {
+  .card-login .btn-base {
     color: #e3f73a;
     background: rgba(105, 193, 242, 0.53);
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
     font: 20px "proxima_novabold", sans-serif; }
-    .form-login .btn-standart.btn-lg {
+    .card-login .btn-base.btn-lg {
       min-width: 250px;
       font-size: 20px;
       border-radius: 8px;
       padding: 18px;
       margin: 5px; }
-    .form-login .btn-standart.btn-sm {
+    .card-login .btn-base.btn-sm {
       min-width: 173px;
       font-size: 14px;
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
-    .form-login .btn-standart:hover {
+    .card-login .btn-base:hover {
       color: #fff;
       background: #82c3eb;
       cursor: pointer; }
-  .form-login .btn-universal {
+  .card-login .btn-universal {
     color: #fff;
     background: rgba(84, 193, 118, 0.53);
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
     font: 20px "proxima_novabold", sans-serif; }
-    .form-login .btn-universal.btn-lg {
+    .card-login .btn-universal.btn-lg {
       min-width: 250px;
       font-size: 20px;
       border-radius: 8px;
       padding: 18px;
       margin: 5px; }
-    .form-login .btn-universal.btn-sm {
+    .card-login .btn-universal.btn-sm {
       min-width: 173px;
       font-size: 14px;
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
-    .form-login .btn-universal:hover {
+    .card-login .btn-universal:hover {
       color: #fff;
       background: #72c192;
       cursor: pointer; }
 
-.form-profile {
+.card-profile {
   background: rgba(255, 255, 255, 0.1);
   height: 387px;
   border-radius: 10px;
@@ -286,7 +286,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 26px; }
-  .form-profile .form-title {
+  .card-profile .card-title {
     width: 100%;
     color: #fff;
     background: rgba(168, 115, 28, 0.53);
@@ -295,7 +295,7 @@ body {
     padding: 18px;
     margin-bottom: 20px;
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4); }
-  .form-profile .btn-primary {
+  .card-profile .btn-primary {
     color: #8f5757;
     background: rgba(255, 255, 255, 0.4);
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
@@ -303,100 +303,100 @@ body {
     border: none;
     font: 20px "proxima_novabold", sans-serif;
     box-shadow: none; }
-    .form-profile .btn-primary.btn-lg {
+    .card-profile .btn-primary.btn-lg {
       min-width: 250px;
       font-size: 20px;
       border-radius: 8px;
       padding: 18px;
       margin: 5px; }
-    .form-profile .btn-primary.btn-sm {
+    .card-profile .btn-primary.btn-sm {
       min-width: 173px;
       font-size: 14px;
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
-    .form-profile .btn-primary .text-hover {
+    .card-profile .btn-primary .text-hover {
       display: none; }
-    .form-profile .btn-primary:hover {
+    .card-profile .btn-primary:hover {
       color: #fff;
       background: #d1dced;
       cursor: pointer;
       box-shadow: none; }
-      .form-profile .btn-primary:hover .text-initial {
+      .card-profile .btn-primary:hover .text-initial {
         display: none; }
-      .form-profile .btn-primary:hover .text-hover {
+      .card-profile .btn-primary:hover .text-hover {
         display: block; }
-  .form-profile .btn-customary {
+  .card-profile .btn-customary {
     color: #711212;
     background: rgba(73, 119, 208, 0.53);
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
     font: 20px "proxima_novabold", sans-serif; }
-    .form-profile .btn-customary.btn-lg {
+    .card-profile .btn-customary.btn-lg {
       min-width: 250px;
       font-size: 20px;
       border-radius: 8px;
       padding: 18px;
       margin: 5px; }
-    .form-profile .btn-customary.btn-sm {
+    .card-profile .btn-customary.btn-sm {
       min-width: 173px;
       font-size: 14px;
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
-    .form-profile .btn-customary:hover {
+    .card-profile .btn-customary:hover {
       color: #fff;
       background: #6d91d5;
       cursor: pointer; }
-  .form-profile .btn-standart {
+  .card-profile .btn-base {
     color: #e3f73a;
     background: rgba(105, 193, 242, 0.53);
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
     font: 20px "proxima_novabold", sans-serif; }
-    .form-profile .btn-standart.btn-lg {
+    .card-profile .btn-base.btn-lg {
       min-width: 250px;
       font-size: 20px;
       border-radius: 8px;
       padding: 18px;
       margin: 5px; }
-    .form-profile .btn-standart.btn-sm {
+    .card-profile .btn-base.btn-sm {
       min-width: 173px;
       font-size: 14px;
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
-    .form-profile .btn-standart:hover {
+    .card-profile .btn-base:hover {
       color: #fff;
       background: #82c3eb;
       cursor: pointer; }
-  .form-profile .btn-universal {
+  .card-profile .btn-universal {
     color: #fff;
     background: rgba(84, 193, 118, 0.53);
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
     border: none;
     font: 20px "proxima_novabold", sans-serif; }
-    .form-profile .btn-universal.btn-lg {
+    .card-profile .btn-universal.btn-lg {
       min-width: 250px;
       font-size: 20px;
       border-radius: 8px;
       padding: 18px;
       margin: 5px; }
-    .form-profile .btn-universal.btn-sm {
+    .card-profile .btn-universal.btn-sm {
       min-width: 173px;
       font-size: 14px;
       border-radius: 5px;
       padding: 12px;
       margin: 4px; }
-    .form-profile .btn-universal:hover {
+    .card-profile .btn-universal:hover {
       color: #fff;
       background: #72c192;
       cursor: pointer; }
 
-.form-download {
+.card-download {
   background: rgba(255, 255, 255, 0.1);
   height: 387px;
   border-radius: 10px;
@@ -406,7 +406,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 26px; }
-  .form-download .form-title {
+  .card-download .card-title {
     width: 100%;
     color: #fff;
     background: rgba(84, 193, 118, 0.53);
@@ -416,7 +416,7 @@ body {
     margin-bottom: 20px;
     box-shadow: 0px 1px 0px 0px rgba(35, 47, 124, 0.54), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4); }
 
-.form-location {
+.card-location {
   background: rgba(255, 255, 255, 0.1);
   height: 145px;
   border-radius: 10px;
@@ -426,7 +426,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 26px; }
-  .form-location .form-title {
+  .card-location .card-title {
     width: 100%;
     color: #fff;
     background: rgba(253, 228, 127, 0.53);

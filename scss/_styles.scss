@@ -14,7 +14,7 @@ body {
     background: $bgColor;
 }
 
-.forms-wrapper {
+.cards-wrapper {
     max-width: 750px;
     margin: auto;
     display: flex;
@@ -28,11 +28,11 @@ body {
     }
 }
 
-.form-login {
-    @include form(387px);
+.card-login {
+    @include card(387px);
 
-    .form-title {
-        @include form_title($colorCustomary);
+    .card-title {
+        @include card_title($colorCustomary);
     }
 
     .btn-primary {
@@ -65,11 +65,11 @@ body {
         }
     }
 
-    .btn-standart {
-        @include button($fontColorStandart, $colorStandart);
+    .btn-base {
+        @include button($fontColorBase, $colorBase);
 
         &:hover {
-            @include btn-hover ($fontColorUniversal, $colorStandartHover);
+            @include btn-hover ($fontColorUniversal, $colorBaseHover);
         }
     }
 
@@ -82,11 +82,11 @@ body {
     }
 }
 
-.form-profile {
-    @include form(387px);
+.card-profile {
+    @include card(387px);
 
-    .form-title {
-        @include form_title($colorSenary);
+    .card-title {
+        @include card_title($colorDark);
     }
 
     .btn-primary {
@@ -120,11 +120,11 @@ body {
         }
     }
 
-    .btn-standart {
-        @include button($fontColorStandart, $colorStandart);
+    .btn-base {
+        @include button($fontColorBase, $colorBase);
 
         &:hover {
-            @include btn-hover ($fontColorUniversal, $colorStandartHover);
+            @include btn-hover ($fontColorUniversal, $colorBaseHover);
         }
     }
 
@@ -138,18 +138,18 @@ body {
 }
 
 
-.form-download {
-    @include form(387px);
+.card-download {
+    @include card(387px);
 
-    .form-title {
-        @include form_title($colorUniversal);
+    .card-title {
+        @include card_title($colorUniversal);
     }
 }
 
-.form-location {
-    @include form(145px);
+.card-location {
+    @include card(145px);
 
-    .form-title {
-        @include form_title($colorDenary);
+    .card-title {
+        @include card_title($colorLight);
     }
 }
